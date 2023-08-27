@@ -52,15 +52,15 @@ Create a web application where users can securely upload files to Azure Blob Sto
   
 - **Steps**:
    1. **Storage Setup**:
-        - Set up an Azure Blob Storage account and create a container to store the uploaded files.
+        - ✅Set up an Azure Blob Storage account and create a container to store the uploaded files.
         - Configure appropriate security settings, ensuring data at rest encryption is enabled.
    
    2. **Web Application Deployment**:
-        - Develop a web application that allows users to upload files. This can be done using preferred frameworks (like ASP.NET Core, Node.js, etc.).
+        - ✅Develop a web application that allows users to upload files. This can be done using preferred frameworks (like ASP.NET Core, Node.js, etc.).
         - Deploy the application to Azure Web Apps.
    
    3. **File Upload Logic**:
-        - In the web application, integrate Azure Blob Storage SDKs/APIs to facilitate the file upload process directly to Blob Storage.
+        - ✅In the web application, integrate Azure Blob Storage SDKs/APIs to facilitate the file upload process directly to Blob Storage.
    
    4. **Database Integration**:
         - Create an Azure SQL Database to store metadata of uploaded files, including the original filename, upload timestamp, unique link, and expiration date.
