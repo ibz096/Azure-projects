@@ -64,7 +64,7 @@ Create a web application where users can securely upload files to Azure Blob Sto
    
    4. **Database Integration**:
         - ✅Create an Azure SQL Database to store metadata of uploaded files, including the original filename, upload timestamp, unique link, and expiration date.
-        - From the web application, upon each file upload, store this metadata in the Azure SQL Database.
+        - ✅From the web application, upon each file upload, store this metadata in the Azure SQL Database.
    
    5. **Unique Link Generation**:
         - When a file is uploaded, use Azure Functions to generate a unique, time-limited link for the user.
